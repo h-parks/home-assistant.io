@@ -118,5 +118,5 @@ To reload customizations, navigate to Configuration > Server Controls and then p
 Alternatively, you can reload via service call. Navigate to Developer Tools > Services tab, select `homeassistant.reload_core_config` from the dropdown and press the "Call Service" button.
 
 <div class='note warning'>
-New customize information will be applied the next time the state of the entity gets updated.
+New customize information will be applied the next time the state of the entity gets updated. Use the service `homeassistant.update_entity` or from the UI, Select Entity > Update to do this manually.
 </div>
